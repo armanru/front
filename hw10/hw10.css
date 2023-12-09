@@ -1,0 +1,43 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;  
+background-color: rgb(9, 31, 41);
+text-align: right;
+}
+ul{
+    text-align: right;
+    height: 600px;
+    width: 250px;
+ overflow-y:scroll;
+    float: right;
+}
+p{
+    margin: 0 0 100px 0;
+}
+a{
+    color: white;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid rgb(9, 31, 41);
+    float: left;
+    width: 180px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #ffffff;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+ #div1{
+    display: flex;
+    float: right;
+ }
